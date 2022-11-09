@@ -73,11 +73,11 @@ function validFunc() {
 //task2
 const main = document.getElementsByName("main");
 const row1 = document.getElementById("row1");
-const row7 = document.getElementById("row7");
-const row13 = document.getElementById("row13");
-const row19 = document.getElementById("row19");
-const row25 = document.getElementById("row25");
-const row31 = document.getElementById("row31");
+const row2 = document.getElementById("row2");
+const row3 = document.getElementById("row3");
+const row4 = document.getElementById("row4");
+const row5 = document.getElementById("row5");
+const row6 = document.getElementById("row6");
 const colorInput = document.getElementById("colorInput");
 //зміна рядка на рандомний колір при наведенні на першку клітинку
 function getRandom(min, max) {
@@ -90,11 +90,11 @@ main[0].addEventListener("mouseover", function () {
 main[0].addEventListener("mouseout", function () {
   row1.style.backgroundColor = "white";
   row1.style.backgroundColor = "white";
-  row7.style.backgroundColor = "white";
-  row13.style.backgroundColor = "white";
-  row19.style.backgroundColor = "white";
-  row25.style.backgroundColor = "white";
-  row31.style.backgroundColor = "white";
+  row2.style.backgroundColor = "white";
+  row3.style.backgroundColor = "white";
+  row4.style.backgroundColor = "white";
+  row5.style.backgroundColor = "white";
+  row6.style.backgroundColor = "white";
 });
 //зміна коліра на обраний при кліці на першу клітинку
 main[0].addEventListener("click", function () {
@@ -103,9 +103,9 @@ main[0].addEventListener("click", function () {
 
 main[0].addEventListener("dblclick", function () {
   row1.style.backgroundColor = colorInput.value;
-  row7.style.backgroundColor = colorInput.value;
-  row13.style.backgroundColor = colorInput.value;
-  row19.style.backgroundColor = colorInput.value;
-  row25.style.backgroundColor = colorInput.value;
-  row31.style.backgroundColor = colorInput.value;
+  row2.style.backgroundColor = colorInput.value;
+  row3.style.backgroundColor = colorInput.value;
+  row4.style.backgroundColor = colorInput.value;
+  row5.style.backgroundColor = colorInput.value;
+  row6.style.backgroundColor = colorInput.value;
 });
